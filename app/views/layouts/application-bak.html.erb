@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cubed</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+
+  <body class="pt-5">
+  <%= render partial: "layouts/navbar" %>
+  <main class="container">
+    <%= yield %>
+  </main>
+  <script src="https://han109k.github.io/light-switch-bootstrap/switch.js"></script>
+  <script type="text/javascript">
+    (function () {
+      if (!lightSwitch) {
+        return;
+      }
+    })();
+  </script>
+
+  </body>
+</html>

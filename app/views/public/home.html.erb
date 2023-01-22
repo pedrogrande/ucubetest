@@ -1,0 +1,160 @@
+<style media="screen">
+  .cube{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+.cube div{
+  <!-- position: absolute; -->
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: spin 6s linear infinite;
+
+}
+@keyframes spin{
+  0%{
+    transform: rotateX(-20deg) rotateY(360deg);
+  }
+  100%{
+    transform: rotateX(-20deg) rotateY(0deg);
+  }
+}
+.cube .big span{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: var(--clr);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+.cube:hover .big span{
+  background: transparent;
+  border: 2px solid #ffa20d;
+  filter: drop-shadow(0 0 20px #ffa20d);
+}
+.cube .big span.top{
+  transform: rotateX(90deg) translateZ(75px);
+}
+.cube .big span.top::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateZ(-17px);
+  background: rgba(0,0,0,0.5);
+  filter: blur(50px);
+}
+
+.cube2{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200px);
+}
+.cube2 div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: spin_back 6s linear infinite;
+  scale: 0.5;
+}
+@keyframes spin_back{
+  0%{
+    transform: rotateX(-20deg) rotateY(0deg);
+  }
+  100%{
+    transform: rotateX(-20deg) rotateY(360deg);
+  }
+}
+.cube2 .small span{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: var(--clr);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+.cube:hover ~ .cube2 .small span{
+  background: transparent;
+  border: 2px solid #fff;
+  filter: drop-shadow(0 0 20px #fff);
+}
+.cube2 .small span.top{
+  transform: rotateX(90deg) translateZ(75px);
+}
+.cube2 .small span.top::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateZ(-175px);
+  background: rgba(0,0,0,0.35);
+  filter: blur(50px);
+}
+
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="mt-5 p-5 mb-4 rounded-4 shadow" style="background-color:#ede7e2;">
+      <div class="container py-5">
+        <div class="cube">
+          <div class="big">
+            <span style="--i:0;--clr:#e2e2e2;"></span>
+            <span style="--i:1;--clr:#f0f0f0;"></span>
+            <span style="--i:2;--clr:#e2e2e2;"></span>
+            <span style="--i:3;--clr:#f0f0f0;"></span>
+            <span class="top" style="--clr:#fff;"></span>
+          </div>
+        </div>
+        <div class="cube2">
+          <div class="small">
+            <span style="--i:0;--clr:#ffa20d;"></span>
+            <span style="--i:1;--clr:#ff8502;"></span>
+            <span style="--i:2;--clr:#ffa20d;"></span>
+            <span style="--i:3;--clr:#ff8502;"></span>
+            <span class="top" style="--clr:#ffbb56;"></span>
+          </div>
+        </div>
+        <h1 class="display-1">Are you web3-curious?</h1>
+        <p class="col-md-8 fs-4">It's ok. Many people are! Jump in and explore the web3 world and learn about the opportunities that await you.</p>
+        <button class="btn btn-primary btn-lg" type="button">Start with a free IRL workshop</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="mt-5 p-5 mb-4 bg-white rounded-4 shadow">
+      <div class="container py-5">
+        <h2 class="display-2">Explore web3</h1>
+        <p class="col-md-8 fs-4">Come to a free workshop</p>
+        
+        <button class="btn btn-primary btn-lg" type="button">Start with a free IRL workshop</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="mt-5 p-5 mb-4 bg-white rounded-4 shadow">
+      <div class="container py-5">
+        <h1 class="display-1">Are you web3-curious?</h1>
+        <p class="col-md-8 fs-4">It's ok. Many people are! Jump in and explore the web3 world and learn about the opportunities that await you.</p>
+        <button class="btn btn-primary btn-lg" type="button">Start with a free IRL workshop</button>
+      </div>
+    </div>
+
+  </div>
+</div>
