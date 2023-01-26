@@ -97,7 +97,6 @@ GEM
     cssbundling-rails (1.1.2)
       railties (>= 6.0.0)
     date (3.3.3)
-    debug (1.7.1)
     devise (4.8.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -255,7 +254,6 @@ DEPENDENCIES
   capybara
   country_select
   cssbundling-rails
-  debug
   devise (~> 4.8)
   exception_notification
   friendly_id (~> 5.5)
