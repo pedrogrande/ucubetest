@@ -11,6 +11,12 @@ class PublicController < ApplicationController
   def partner
   end
 
-  def explore
+  def about_ucubed
+  end
+
+  def articles
+  end
+
+  def free_resources
   end
 end

@@ -1,146 +1,59 @@
-<style media="screen">
-  .cube{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-}
-.cube div{
-  <!-- position: absolute; -->
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  animation: spin 6s linear infinite;
-
-}
-@keyframes spin{
-  0%{
-    transform: rotateX(-20deg) rotateY(360deg);
-  }
-  100%{
-    transform: rotateX(-20deg) rotateY(0deg);
-  }
-}
-.cube .big span{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background: var(--clr);
-  transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
-  transform-style: preserve-3d;
-  transition: 0.5s;
-}
-.cube:hover .big span{
-  background: transparent;
-  border: 2px solid #ffa20d;
-  filter: drop-shadow(0 0 20px #ffa20d);
-}
-.cube .big span.top{
-  transform: rotateX(90deg) translateZ(75px);
-}
-.cube .big span.top::before{
-  content: '';
-  position: absolute;
-  inset: 0;
-  transform: translateZ(-17px);
-  background: rgba(0,0,0,0.5);
-  filter: blur(50px);
-}
-
-.cube2{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -200px);
-}
-.cube2 div{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  animation: spin_back 6s linear infinite;
-  scale: 0.5;
-}
-@keyframes spin_back{
-  0%{
-    transform: rotateX(-20deg) rotateY(0deg);
-  }
-  100%{
-    transform: rotateX(-20deg) rotateY(360deg);
-  }
-}
-.cube2 .small span{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background: var(--clr);
-  transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
-  transform-style: preserve-3d;
-  transition: 0.5s;
-}
-.cube:hover ~ .cube2 .small span{
-  background: transparent;
-  border: 2px solid #fff;
-  filter: drop-shadow(0 0 20px #fff);
-}
-.cube2 .small span.top{
-  transform: rotateX(90deg) translateZ(75px);
-}
-.cube2 .small span.top::before{
-  content: '';
-  position: absolute;
-  inset: 0;
-  transform: translateZ(-175px);
-  background: rgba(0,0,0,0.35);
-  filter: blur(50px);
-}
-
-</style>
-
 <div class="container">
   <div class="row">
-    <div class="mt-5 p-5 mb-4 rounded-4 shadow" style="background-color:#ede7e2;">
+    <div class="mt-5 p-5 mb-4 rounded-4 border border-dark border-5 big-box" style="background-color:#D1ECCF;">
       <div class="container py-5">
-        <div class="cube">
-          <div class="big">
-            <span style="--i:0;--clr:#e2e2e2;"></span>
-            <span style="--i:1;--clr:#f0f0f0;"></span>
-            <span style="--i:2;--clr:#e2e2e2;"></span>
-            <span style="--i:3;--clr:#f0f0f0;"></span>
-            <span class="top" style="--clr:#fff;"></span>
+        <h1 class="display-1 pb-5">Ready for take-off into your web3 career?</h1>
+        <div class="row">
+          <div class="col-md-5">
+            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_jpbiy8di.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+
           </div>
-        </div>
-        <div class="cube2">
-          <div class="small">
-            <span style="--i:0;--clr:#ffa20d;"></span>
-            <span style="--i:1;--clr:#ff8502;"></span>
-            <span style="--i:2;--clr:#ffa20d;"></span>
-            <span style="--i:3;--clr:#ff8502;"></span>
-            <span class="top" style="--clr:#ffbb56;"></span>
+          <div class="col-md-7 p-4">
+
+            <p class="fs-4">Achieve your goals with web3 digital skills and become a leader in your field!</p>
+            <p class="fs-4 pb-3"> Web3 is so much more than crypto bros and NFT scammers. . </p>
+            <p class="fs-4 pb-3"> Web3 is so much more than crypto bros and NFT scammers. . </p>
+            <a class="btn btn-bd-primary btn-lg" href="#free-workshop">Start with a free IRL workshop</a>
           </div>
+
         </div>
-        <h1 class="display-1">Are you web3-curious?</h1>
-        <p class="col-md-8 fs-4">It's ok. Many people are! Jump in and explore the web3 world and learn about the opportunities that await you.</p>
-        <button class="btn btn-primary btn-lg" type="button">Start with a free IRL workshop</button>
+
+
       </div>
     </div>
 
   </div>
 </div>
 
-<div class="container">
+<div class="container" id="free-workshop">
   <div class="row">
-    <div class="mt-5 p-5 mb-4 bg-white rounded-4 shadow">
+    <div class="mt-5 p-5 mb-4 rounded-4 border border-dark border-5 big-box" style="background-color:#C2E4F2;">
       <div class="container py-5">
-        <h2 class="display-2">Explore web3</h1>
-        <p class="col-md-8 fs-4">Come to a free workshop</p>
-        
-        <button class="btn btn-primary btn-lg" type="button">Start with a free IRL workshop</button>
+        <h2 class="display-3">What's so special about web3?</h2>
+        <p class="col-md-8 fs-4">Discover the possibilities of web3 in a free, hands-on workshop at Ucubed.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="mb-3">What you'll learn</h3>
+            <ul class="fa-ul d-grid gap-3">
+              <li><span class="fa-li"><i class="fa-regular fa-check-square fa-lg fa-fw"></i></span>See why web3 is so much more than crypto bros and NFT scammers</li>
+              <li><span class="fa-li"><i class="fa-regular fa-check-square fa-lg fa-fw"></i></span>Understand how web3 technology works </li>
+              <li><span class="fa-li"><i class="fa-regular fa-check-square fa-lg fa-fw"></i></span>Find out more about the opportunities available for those with web3 skills</li>
+              <li><span class="fa-li"><i class="fa-regular fa-check-square fa-lg fa-fw"></i></span>See how web3 is being used to solve some of the world's biggest social and business problems</li>
+            </ul>
+            <p class="mt-3"><a class="btn btn-bd-primary" href="/"><i class="fa-solid fa-circle-info fa-lg fa-fw"></i> More information</a></p>
+          </div>
+          <div class="col-md-6">
+            <h3 class="mb-3">Upcoming workshops</h3>
+            <ul class="fa-ul d-grid gap-3">
+              <li><span class="fa-li"><i class="fa-regular fa-calendar-days fa-lg fa-fw"></i></span>Melbourne — Docklands, 18th February, 1pm - 3pm</li>
+              <li><span class="fa-li"><i class="fa-regular fa-calendar-days fa-lg fa-fw"></i></span>Melbourne — Docklands, 18th February, 1pm - 3pm</li>
+              <li><span class="fa-li"><i class="fa-regular fa-calendar-days fa-lg fa-fw"></i></span>Melbourne — Docklands, 18th February, 1pm - 3pm</li>
+              <li><span class="fa-li"><i class="fa-regular fa-calendar-days fa-lg fa-fw"></i></span>Melbourne — Docklands, 18th February, 1pm - 3pm</li>
+            </ul>
+          </div>
+        </div>
+        <p></p>
+        <!-- <button class="btn btn-bd-primary btn-lg" type="button">Start with a free IRL workshop</button> -->
       </div>
     </div>
 
@@ -148,13 +61,48 @@
 </div>
 <div class="container">
   <div class="row">
-    <div class="mt-5 p-5 mb-4 bg-white rounded-4 shadow">
-      <div class="container py-5">
-        <h1 class="display-1">Are you web3-curious?</h1>
-        <p class="col-md-8 fs-4">It's ok. Many people are! Jump in and explore the web3 world and learn about the opportunities that await you.</p>
-        <button class="btn btn-primary btn-lg" type="button">Start with a free IRL workshop</button>
+    <div class="col-md-6 d-flex align-items-stretch">
+      <div class="mt-5 p-5 mb-4 rounded-4 border border-dark border-5 big-box" style="background-color:#F3C4C2;">
+        <div class="container py-5">
+          <!-- <i class="fa-solid fa-ranking-star fa-fw"></i> -->
+          <h1 class="display-5">Web3 digital skills will be your super powers!</h1>
+          <p class="">The world has not yet woken up to the potential of web3 and the opportunities it provides us all.</p>
+          <!-- <button class="btn btn-bd-primary btn-lg" type="button">Start with a free IRL workshop</button> -->
+        </div>
       </div>
     </div>
+    <div class="col-md-6 d-flex align-items-stretch">
+      <div class="mt-5 p-5 mb-4 rounded-4 border border-dark border-5 big-box" style="background-color:#DFD2FB;">
+        <div class="container py-5">
+          <h1 class="display-5">Learning should be fun</h1>
+          <p class="">Ucubed takes a brand new approach to upskilling. For one, we design our programs to be fun, practical and allow you to connect with the other smart people in our community.</p>
+          <!-- <button class="btn btn-bd-primary btn-lg" type="button">Start with a free IRL workshop</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 d-flex align-items-stretch">
+      <div class="mt-5 p-5 mb-4 rounded-4 border border-dark border-5 big-box" style="background-color:#D1ECCF;">
+        <div class="container py-5">
+          <!-- <i class="fa-solid fa-ranking-star fa-fw"></i> -->
+          <h1 class="display-5">Social impact at Ucubed!</h1>
+          <p class="">The world has not yet woken up to the potential of web3 and the opportunities it provides us all.</p>
+          <!-- <button class="btn btn-bd-primary btn-lg" type="button">Start with a free IRL workshop</button> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 d-flex align-items-stretch">
+      <div class="mt-5 p-5 mb-4 rounded-4 border border-dark border-5 big-box" style="background-color:#C2E4F2;">
+        <div class="container py-5">
+          <h1 class="display-5">Industry partnerships</h1>
+          <p class="">Ucubed takes a brand new approach to upskilling. For one, we design our programs to be fun, practical and allow you to connect with the other smart people in our community.</p>
+          <!-- <button class="btn btn-bd-primary btn-lg" type="button">Start with a free IRL workshop</button> -->
+        </div>
+      </div>
+    </div>
   </div>
 </div>

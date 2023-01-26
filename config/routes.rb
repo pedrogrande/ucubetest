@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   root 'public#home'
   get 'home2', to: 'public#home2'
-  get 'test1', to: 'public#test1'
-  get 'test2', to: 'public#test2'
-  get 'test3', to: 'public#test3'
-  get 'test4', to: 'public#test4'
+  get 'about-ucubed', to: 'public#about_ucubed'
+  get 'articles', to: 'public#articles'
+  get 'free_resources', to: 'public#free_resources'
+  # get 'test4', to: 'public#test4'
   get 'learn', to: "public#learn"
   get 'join', to: "public#join"
   get 'partner', to: "public#partner"
