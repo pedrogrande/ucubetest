@@ -6,19 +6,22 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <script src="https://kit.fontawesome.com/2fbcf4bc83.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/2fbcf4bc83.js" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: ["Jost:regular,500,600,700,800", "Poppins:regular,500,600,700,800"]
+        }
+      });
+    </script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body class="pt-5">
+  <body class="" style="padding-top:10rem;">
     <%= render partial: "layouts/navbar" %>
-    <main class="container mt-5">
-      <%= yield %>
-    </main>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <%= yield %>
+
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
   </body>
 </html>
-
-
-Community connections are vital to human wellbeing and web3 success. Ucubed graduates are incentivised to stick around to share their knowledge, skills and experience with peers and participate in social impact initiatives locally and globally.
-Design all the things! At Ucubed, human-centred design goes into every product, activity, tool and initiative. We take the time to put serious thought into everything we do and take an iterative, continuous improvement approach to always be providing maximum value for all stakeholders.

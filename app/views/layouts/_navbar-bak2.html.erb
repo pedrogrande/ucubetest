@@ -1,0 +1,56 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light px-0 py-3" style="background-color:#F9F4E6;">
+  <div class="container-xl">
+    <!-- Logo -->
+    <a class="navbar-brand gradient-text" href="/">
+      <!-- <img src="https://preview.webpixels.io/web/img/logos/clever-primary.svg" class="h-8" alt="..."> -->
+      <%= image_tag 'OrangeU.png', class: 'img-fluid', style: 'max-height:60px;' %>
+    </a>
+    <!-- Navbar toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <!-- Nav -->
+      <div class="navbar-nav mx-lg-auto"></div>
+      <!-- Right navigation -->
+      <div class="navbar-nav ms-lg-4">
+        <a class="nav-item nav-link px-4 <%= current_page?(root_path) ? 'active' : '' %>" href="/" aria-current="page">
+          <i class="fa-solid fa-house-chimney-window fa-fw"></i>
+          &nbsp; Home</a>
+        <a class="nav-item nav-link px-4  <%= current_page?(learn_path) ? 'active' : '' %>" href="/learn">
+          <i class="fa-solid fa-lines-leaning"></i>
+          &nbsp; Learn</a>
+        <a class="nav-item nav-link px-4  <%= current_page?(join_path) ? 'active' : '' %>" href="/join">
+          <i class="fa-solid fa-globe"></i>
+          &nbsp; Community</a>
+        <a class="nav-item nav-link px-4  <%= current_page?(partner_path) ? 'active' : '' %>" href="/partner">
+          <i class="fa-solid fa-handshake"></i>
+          &nbsp; Partner</a>
+        <!-- <a class="nav-item nav-link px-4" href="/explore"><i class="fa-solid fa-compass"></i> &nbsp; Explore</a> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link px-4 dropdown-toggle <%= explore_page? ? 'active' : '' %>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-compass"></i>
+            &nbsp; Explore
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="/about-ucubed">About Ucubed</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/articles">Articles</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/free_resources">Free resources</a>
+            </li>
+          </ul>
+        </li>
+        <!-- <a class="nav-item nav-link px-4" href="#">Sign in</a> -->
+      </div>
+      <!-- Action -->
+      <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+        <!-- <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto"> Register </a> -->
+      </div>
+    </div>
+  </div>
+</nav>
