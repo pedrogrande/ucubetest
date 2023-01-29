@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bootstrap", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:5.2.3"],\
             ["bootstrap-icons", "npm:1.10.3"],\
             ["esbuild", "npm:0.17.4"],\
+            ["jquery", "npm:3.6.3"],\
             ["sass", "npm:1.57.1"]\
           ],\
           "linkType": "SOFT"\
@@ -397,6 +398,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bootstrap", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:5.2.3"],\
             ["bootstrap-icons", "npm:1.10.3"],\
             ["esbuild", "npm:0.17.4"],\
+            ["jquery", "npm:3.6.3"],\
             ["sass", "npm:1.57.1"]\
           ],\
           "linkType": "SOFT"\
@@ -987,6 +989,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/isexe-npm-2.0.0-b58870bd2e-26bf6c5480.zip/node_modules/isexe/",\
           "packageDependencies": [\
             ["isexe", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["jquery", [\
+        ["npm:3.6.3", {\
+          "packageLocation": "./.yarn/cache/jquery-npm-3.6.3-cbc34d2330-0fd366bdca.zip/node_modules/jquery/",\
+          "packageDependencies": [\
+            ["jquery", "npm:3.6.3"]\
           ],\
           "linkType": "HARD"\
         }]\

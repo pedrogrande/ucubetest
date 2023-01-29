@@ -1,12 +1,12 @@
 /**
  * /*----------------------------------------------------
- * 
+ *
  * This file contains the styling for the actual template, this
  * is the file you need to edit to change the look of the
  * template.
- * 
- * 
- * 
+ *
+ *
+ *
  * Table of Content:
  * 01/ reset
  * 02/ variables
@@ -15,27 +15,27 @@
  * 05/ video_popup
  * 06/ service_box
  * 07/ awords
- * 08/ projects 
- * 09/ team 
- * 10/ mix_sections 
- * 11/ testimonial  
- * 12/ counter 
- * 13/ blog 
- * 14/ client 
- * 15/ service_line 
- * 16/ offer_box 
- * 17/ price 
- * 18/ cta 
- * 19/ faq 
- * 20/ progress 
- * 21/ contact 
- * 22/ shop 
- * 23/ header 
- * 24/ breadcrumb 
- * 25/ sidebar 
- * 26/ footer 
- * 
- * 
+ * 08/ projects
+ * 09/ team
+ * 10/ mix_sections
+ * 11/ testimonial
+ * 12/ counter
+ * 13/ blog
+ * 14/ client
+ * 15/ service_line
+ * 16/ offer_box
+ * 17/ price
+ * 18/ cta
+ * 19/ faq
+ * 20/ progress
+ * 21/ contact
+ * 22/ shop
+ * 23/ header
+ * 24/ breadcrumb
+ * 25/ sidebar
+ * 26/ footer
+ *
+ *
  * =====================================================================
  *
  * @format
@@ -48,10 +48,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-@font-face {
-  font-family: ClashDisplay;
-  src: url(../fonts/ClashDisplay-Semibold.ttf);
-}
+// @font-face {
+//   font-family: ClashDisplay;
+//   src: url(../fonts/ClashDisplay-Semibold.ttf);
+// }
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+
 
 * {
   margin: 0;
@@ -72,7 +74,7 @@ a {
 
 .section_title h2 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 66px;
   line-height: 76px;
@@ -93,7 +95,7 @@ a {
 
 .blockquote p {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -131,7 +133,7 @@ a {
 
 .hero_main {
   padding-top: 250px;
-  padding-bottom: 550px;
+  padding-bottom: 250px;
   position: relative;
 }
 
@@ -140,7 +142,7 @@ a {
 }
 
 .hero_main .content .section_title h1 {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   color: #131313;
   font-weight: 600;
   font-size: 120px;
@@ -203,7 +205,7 @@ a {
 
 .hero_creative_agency .content .section_title h1 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 100px;
   line-height: 104px;
@@ -280,7 +282,7 @@ a {
 
 .hero_digital_studio .section_title h1 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 120px;
   line-height: 124px;
@@ -337,7 +339,7 @@ a {
 }
 
 .hero_marketing_agency .content .section_title h1 {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 100px;
   line-height: 104px;
@@ -398,7 +400,7 @@ a {
 }
 
 .hero_coporate_agency .content .section_title h1 {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 120px;
   line-height: 124px;
@@ -450,7 +452,7 @@ a {
 }
 
 .hero_agenct_portfolio .content .section_title h1 {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 100px;
   line-height: 104px;
@@ -505,7 +507,7 @@ a {
 
 .hero_shop .content span {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -513,7 +515,7 @@ a {
 
 .hero_shop .content .section_title h1 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 90px;
   line-height: 96px;
@@ -756,7 +758,7 @@ a {
 
 .min_service_box_area .single_service_box h4 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -815,7 +817,7 @@ a {
 
 .min_aword_area .singe_aword .left_content .content h5 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -823,7 +825,7 @@ a {
 
 .min_aword_area .singe_aword .left_content .content span {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -952,7 +954,7 @@ a {
 
 .min_project_area .single_project .project_bottom h4 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -1052,7 +1054,7 @@ a {
 
 .min_project_slider_area .single_project_slider .project_bottom h4 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -1132,7 +1134,7 @@ a {
 
 .min_project_two .project_two_items .single_item .all_content .content h3 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -1271,7 +1273,7 @@ a {
 
 .min_project_slider_two_area .single_project_slider_two .project_bottom h4 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -1373,7 +1375,7 @@ a {
 
 .min_project_area_grid_two .single_project .project_bottom h4 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -1502,7 +1504,7 @@ a {
 
 .min_team_area .single_team h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -1562,7 +1564,7 @@ a {
 
 .min_team_area_two .single_team_two h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -1615,7 +1617,7 @@ a {
 
 .min_team_area_innar .single_team h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -1652,7 +1654,7 @@ a {
 
 .team_single_area .team_info span {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -1660,7 +1662,7 @@ a {
 
 .team_single_area .team_info h3 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 66px;
   line-height: 76px;
@@ -1718,7 +1720,7 @@ a {
 .team_single_area .team_info .team_contact a {
   display: block;
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -1737,7 +1739,7 @@ a {
 
 .team_single_area .min_contact_area .section_title h4 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -1771,7 +1773,7 @@ a {
 
 .digital_agency .content .agency_list li {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -1810,7 +1812,7 @@ a {
 
 .creative_agency .content .agency_contact_list li {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -1843,7 +1845,7 @@ a {
 
 .power .power_content .power_list li h6 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -1940,7 +1942,7 @@ a {
 
 .min_testimonial_area .single_testimonial p {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 500;
   font-size: 42px;
   line-height: 54px;
@@ -2022,7 +2024,7 @@ a {
 
 .testimonial_style_two_area .single_item .content p {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -2082,7 +2084,7 @@ a {
 
 .min_counter_area .single_counter h6 {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 88px;
   line-height: 98px;
@@ -2209,7 +2211,7 @@ a {
 
 .min_blog_area .single_blog .blog_bottom h4 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -2342,7 +2344,7 @@ a {
 
 .min_blog_area_col_3 .single_blog .blog_bottom h4 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -2432,7 +2434,7 @@ a {
 
 .min_blog_area_blog_list .single_blog .blog_bottom h3 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -2448,7 +2450,7 @@ a {
 
 .min_blog_area_blog_list .single_blog .blog_bottom h4 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -2582,7 +2584,7 @@ a {
 
 .blog_single .post_content .main_post_content .blockquote p {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -2704,7 +2706,7 @@ a {
 
 .blog_single .post_author .post_author_info .parsonal_info h6 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -2725,7 +2727,7 @@ a {
 
 .blog_single .comments_area h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -2757,7 +2759,7 @@ a {
 
 .blog_single .comments_area .single_conmment_with_replay .comment .comment_info h6 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -2790,7 +2792,7 @@ a {
 
 .blog_single .comment_box h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -2843,7 +2845,7 @@ a {
 
 .paginations li a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -2881,7 +2883,7 @@ a {
 
 .single_service_content .content_top h4 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 66px;
   line-height: 76px;
@@ -2925,7 +2927,7 @@ a {
 
 .single_service_content .content_bottom h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -2951,7 +2953,7 @@ a {
 }
 
 .single_service_content .content_bottom .blockquote p {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -2964,7 +2966,7 @@ a {
 
 .min_contact_area.service-single .section_title h4 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -3018,7 +3020,7 @@ a {
 
 .portfolio_single_content .top .service_list_area .single_item span {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -3026,7 +3028,7 @@ a {
 
 .portfolio_single_content .top .service_list_area .single_item p {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -3054,7 +3056,7 @@ a {
 
 .portfolio_single_content .bottom .content_item h4 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -3083,7 +3085,7 @@ a {
 
 .client .client_title h2 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -3131,7 +3133,7 @@ a {
 
 .service_line .line_item h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 52px;
@@ -3198,7 +3200,7 @@ a {
 
 .min_offer_box .single_offer_box .content h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -3264,7 +3266,7 @@ a {
 
 .min_price_area .single_price_item .price_top h3 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -3272,7 +3274,7 @@ a {
 
 .min_price_area .single_price_item .price_top h5 {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 78px;
   line-height: 88px;
@@ -3333,7 +3335,7 @@ a {
   padding-top: 115px;
   padding-bottom: 120px;
   text-align: center;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   color: #131313;
 }
 
@@ -3407,7 +3409,7 @@ a {
   display: flex;
   justify-content: space-between;
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -3658,7 +3660,7 @@ a {
 
 .min_contact_box .single_contact_box h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -3667,7 +3669,7 @@ a {
 
 .min_contact_box .single_contact_box .location {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -3777,7 +3779,7 @@ a {
 
 .min_shop_area .shop_item .bottom h5 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -3789,7 +3791,7 @@ a {
 
 .min_shop_area .shop_item .bottom span {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -3839,7 +3841,7 @@ a {
 
 .min_grid_shop_area .shop_item .bottom h5 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -3851,7 +3853,7 @@ a {
 
 .min_grid_shop_area .shop_item .bottom span {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -3941,7 +3943,7 @@ a {
 
 .min_grid_shop_area.two .shop_item .bottom span {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -3964,7 +3966,7 @@ a {
 
 .shop_feature_card span {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 66px;
   line-height: 76px;
@@ -4101,7 +4103,7 @@ a {
 
 .shop_grid_with_sidebar .shop_side .sidebar_item .arrival_area .single_arrival .content a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   margin-bottom: 0;
   font-weight: 600;
   font-size: 20px;
@@ -4109,7 +4111,7 @@ a {
 }
 
 .shop_grid_with_sidebar .shop_side .sidebar_item .arrival_area .single_arrival .content h6 {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   color: #FC7942;
   font-weight: 600;
   font-size: 16px;
@@ -4136,7 +4138,7 @@ a {
 
 .product_details .product_info .top h4 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 66px;
   line-height: 76px;
@@ -4144,7 +4146,7 @@ a {
 
 .product_details .product_info .top .price {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -4185,7 +4187,7 @@ a {
 
 .product_details .product_info .bottom .cart_area .form-control {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -4223,7 +4225,7 @@ a {
   background-color: transparent;
   padding: 0;
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -4322,7 +4324,7 @@ a {
 
 .my_cart .cart_list_area .main_cart_list .single_list .one .right h6 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4330,7 +4332,7 @@ a {
 
 .my_cart .cart_list_area .main_cart_list .single_list .one .right span {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -4344,12 +4346,12 @@ a {
   box-shadow: 4px 4px 0px #131313;
   text-align: center;
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
 }
 
 .my_cart .cart_list_area .main_cart_list .single_list .three .total_price {
   color: #FC7942;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -4404,7 +4406,7 @@ a {
 
 .my_cart .cart_box .title h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -4423,7 +4425,7 @@ a {
 
 .my_cart .cart_box .content .sub_total h6 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4432,7 +4434,7 @@ a {
 
 .my_cart .cart_box .content .sub_total span {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4445,7 +4447,7 @@ a {
 
 .my_cart .cart_box .content .address h6 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4481,7 +4483,7 @@ a {
 
 .my_cart .cart_box .content .total h6 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4490,7 +4492,7 @@ a {
 
 .my_cart .cart_box .content .total span {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4522,7 +4524,7 @@ a {
 }
 
 .checkout .title h4 {
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   color: #131313;
   font-weight: 600;
   font-size: 42px;
@@ -4535,7 +4537,7 @@ a {
 
 .checkout .checkout_form .input_box h6 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -4707,7 +4709,7 @@ a {
 
 .breadcrumb_area .breadcrumb_content h2 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 120px;
   line-height: 124px;
@@ -4779,7 +4781,7 @@ a {
 
 .blog_sidebar .sidebar_item h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -4876,7 +4878,7 @@ a {
 
 .blog_sidebar .sidebar_item .sidebar_blog_post .single_sidebar_blog_post .content h6 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4945,7 +4947,7 @@ a {
 
 .service_sidebar .service_sidebar_post h6 a {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
@@ -5062,7 +5064,7 @@ a {
 
 .main_footer .site_info h5 {
   color: #131313;
-  font-family: "ClashDisplay", sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;

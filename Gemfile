@@ -14,7 +14,7 @@ gem 'country_select'
 gem 'sucker_punch', '~> 3.0'
 gem 'exception_notification'
 gem "rolify", '~> 6.0'
-
+# gem "jquery-rails"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 

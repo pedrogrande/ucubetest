@@ -2,6 +2,129 @@
 @import 'scss/bootstrap';
 @import url('https://fonts.cdnfonts.com/css/chicago-2');
 @import url('https://fonts.cdnfonts.com/css/rainbow-3');
+@import url('https://api.fontshare.com/v2/css?f[]=chillax@700&display=swap');
+@import 'style';
+@import 'responsive';
+
+.magnet {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: all .5s ease;
+}
+.magnet-mouse-active {
+  background-color: #000000;
+}
+
+// .cursor {
+// 	pointer-events: none;
+// 	position: fixed;
+//   // top: -$cursor-size;
+//   // left: -$cursor-size;
+// 	// padding: $cursor-size;
+// 	background-color: #fff;
+// 	border-radius: 50%;
+// 	transform: translate(-50%, -50%);
+// 	mix-blend-mode: difference;
+// 	transition: transform 0.3s ease, opacity 0.3s ease;
+//
+// 	&.has-hover { transform: translate(-50%, -50%) scale(4); opacity: 0.3; }
+// }
+
+.header_aria .navbar .navbar-brand {
+  font-family: Nippo, Chillax;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #131313;
+}
+
+.img-rounded {
+  border-radius: 50px;
+  border: 2px solid #131313;
+  box-shadow: 4px 4px 0px #131313;
+}
+
+.hero_main {
+  padding-top: 120px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.hero_main .content .btn_area {
+    margin-top: 40px;
+}
+
+@media (max-width:770px) {
+  .hero_main .content .section_title h1, .hero_main .content .section_title .h1 {
+      font-size: 56px;
+      line-height: 56px;
+    }
+}
+
+.square {
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #131313;
+    box-shadow: 4px 4px 0px #131313;
+}
+
+.home-image {
+  width: 500px;
+}
+
+.home-image:hover {
+  width: 500px;
+}
+
+
+@media (max-width: 991px) {
+  .home-image {width: 300px;}
+}
+
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.header_aria .navbar .navbar-collapse .navbar-nav .nav-item .nav-link i {
+  display: block;
+}
+
+.active .nav-link i {
+  color: white;
+}
+
+
+.digital_agency .content p {
+  color: #131313;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 25px;
+}
+
+
+.digital_agency {
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.digital_agency-image {
+  width: 600px;
+}
+
+
+@media (max-width: 991px) {
+  .digital_agency-image {width: 300px;}
+}
 // Colors
 // Pale purple --> A289CD
 // Purple --> 8266B4
@@ -9,58 +132,57 @@
 // Bright yellow --> FEC255
 // Orange --> E0523A
 
-body {
-  background-color: #fcf3e6;
-}
-
-.navbar-brand {
-  color: #E0523A;
-  font-family: 'rainbow', Chicago;
-  font-size: 5rem;
-}
-
-.big-u {
-  font-size:7rem;
-}
-.three {
-  // display:none;
-  // font-style: italic;
-  font-size: 6rem;
-}
-.cubed {
-  // display:none;
-  font-size: 6rem;
-  font-style: italic;
-}
-.cubed-caps {
-  display: none;
-  font-size: 6rem;
-  font-style: italic;
-}
-
-// .brand-lift {
-//   font-size: 3rem;
+// body {
+//   background-color: #fcf3e6;
 // }
-
-.display-1 {
-  color: #292929;
-  font-family: Poppins;
-  font-weight: 800;
-  font-size: 8rem;
-  line-height: 10rem;
-}
-
-.underline-title {
-  background-image: linear-gradient(to right, #f9dd94 0%, #8266B4 100%);
-  // background-repeat: repeat-x;
-  // background-position: 0 100%;
-  // background-size: 100% 30px;
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-  &:hover {
-    background-size: 100% 88%;
-  }
-}
-@import 'style.css';
+//
+// .navbar-brand {
+//   color: #E0523A;
+//   font-family: 'rainbow', Chicago;
+//   font-size: 5rem;
+// }
+//
+// .big-u {
+//   font-size:7rem;
+// }
+// .three {
+//   // display:none;
+//   // font-style: italic;
+//   font-size: 6rem;
+// }
+// .cubed {
+//   // display:none;
+//   font-size: 6rem;
+//   font-style: italic;
+// }
+// .cubed-caps {
+//   display: none;
+//   font-size: 6rem;
+//   font-style: italic;
+// }
+//
+// // .brand-lift {
+// //   font-size: 3rem;
+// // }
+//
+// .display-1 {
+//   color: #292929;
+//   font-family: Poppins;
+//   font-weight: 800;
+//   font-size: 8rem;
+//   line-height: 10rem;
+// }
+//
+// .underline-title {
+//   background-image: linear-gradient(to right, #f9dd94 0%, #8266B4 100%);
+//   // background-repeat: repeat-x;
+//   // background-position: 0 100%;
+//   // background-size: 100% 30px;
+//   background-repeat: no-repeat;
+//   background-size: 100% 0.2em;
+//   background-position: 0 88%;
+//   transition: background-size 0.25s ease-in;
+//   &:hover {
+//     background-size: 100% 88%;
+//   }
+// }
